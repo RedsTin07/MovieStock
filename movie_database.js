@@ -1722,7 +1722,7 @@ function show(array) {
 
     const poster = document.createElement("img");
     poster.src = `https:/image.tmdb.org/t/p/w185${element.poster_path}`;
-    poster.setAttribute("alt", "Your text here");
+    poster.setAttribute("alt", "");
     card.appendChild(poster);
 
     card.appendChild(overlay);
