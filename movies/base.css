@@ -23,12 +23,12 @@ img {
   font-family: jsMath-cmmi10;
   color: blanchedalmond;
   display: flex;
- padding-top: 3rem;
+  padding-top: 3rem;
   padding-left: 3rem;
 }
 
 h5 {
-  color: #F2EBDC;
+  color: #f2ebdc;
   text-align: center;
   font-family: AmstelvarAlpha;
   font-size: 2rem;
@@ -38,23 +38,16 @@ h5 {
   padding-top: 4rem;
 }
 
-
-.credits >h2{
-  color: #F2EBDC;
+.credits > h2 {
+  color: #f2ebdc;
   text-align: center;
   font-family: AmstelvarAlpha;
-  font-size:2rem;
+  font-size: 2rem;
   font-weight: 400;
   padding-left: 11rem;
   padding-right: 11rem;
   padding-top: 4rem;
 }
-
-//*main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}*//
 
 @font-face {
   font-family: AmsterdamCool;
