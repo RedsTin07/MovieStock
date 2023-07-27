@@ -1721,7 +1721,7 @@ function show(array) {
     overlay.appendChild(titulo);
 
     const poster = document.createElement("img");
-    poster.src = `https:/image.tmdb.org/t/p/w185${element.poster_path}`;
+    poster.src = `https://image.tmdb.org/t/p/w185${element.poster_path}`;
     poster.setAttribute("alt", "");
     card.appendChild(poster);
 
