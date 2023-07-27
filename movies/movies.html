@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="movies.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="filter.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="movie_database.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header_top">
+        <h1>MOVIE✶STOCK</h1>
+      </div>
+      <div class="header_bottom">
+        <a href="About.html">About</a>
+        <a href="credits.html">Credits</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="movies_filter">
+        <div><h2>All movies</h2></div>
+        <div class="filter">
+          <h2 id="Contador">100 Items</h2>
+          <div id="filter_btn">
+            <a>Filter</a><img src="./images/Polygon 1.svg" />
+          </div>
+        </div>
+      </section>
+      <div>
+        <div class="filter_boxes">
+          <button class="btn" id="btn_spa">Spanish</button>
+          <button class="btn" id="btn_en">English</button>
+          <button class="btn" id="btn_jn">Japanese</button>
+          <button class="btn" id="btn_voted">Most voted</button>
+          <button class="btn" id="btn_pop">Popular</button>
+          <button class="btn" id="btn_anim">Animation</button>
+          <button class="btn" id="btn_action">Live action</button>
+          <button class="btn" id="btn_re">Recent</button>
+          <button class="btn" id="btn_com">Comedy</button>
+          <button class="btn" id="btn_dra">Drama</button>
+          <button class="btn" id="btn_mys">Action</button>
+          <button class="btn" id="btn_all">All</button>
+        </div>
+      <section>
+        <div id="movies"></div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

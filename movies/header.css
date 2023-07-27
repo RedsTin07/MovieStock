@@ -1,0 +1,46 @@
+header {
+  background-color: #f2ebdc;
+  padding-bottom: 1rem;
+}
+
+.header_top {
+  border-bottom: 5px solid #0d0d0d;
+}
+
+.header_top h1 {
+  font-size: 4rem;
+}
+
+header > div {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.header_bottom {
+  margin-top: 1rem;
+}
+
+.header_bottom a {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.header_bottom > a {
+  transition: transform 0.3s;
+  text-decoration: none;
+  color: #0d0d0d;
+}
+
+.header_bottom > :hover {
+  color: red;
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
